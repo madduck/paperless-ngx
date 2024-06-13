@@ -23,6 +23,7 @@ var/
 .installed.cfg
 *.egg
 /src/paperless_mail/templates/node_modules
+/package*.json
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -75,6 +76,8 @@ virtualenv
 /docker-compose.env
 /docker-compose.yml
 .ruff_cache/
+/.direnv/
+/.envrc
 
 # Used for development
 scripts/import-for-development
